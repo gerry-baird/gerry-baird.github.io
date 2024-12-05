@@ -25,15 +25,14 @@
     </style>
 </head>
 
-<body>
-    <div id="root" class="bg"></div>
+<body id="root">
+    <div class="bg"></div>
 <script>
   window.wxOConfiguration = {
     clientVersion: "latest",
     orchestrationID: "750e9546-92b1-467d-b36f-028d92ccdceb",
     hostUrl: "https://dl.watson-orchestrate.ibm.com",
-    rootElementId: "root",
-    // token: "<CLIENT_JWT_GOES_HERE>"
+    rootElementId: "root"
   };
   setTimeout(function () {
     const script = document.createElement('script');
